@@ -49,10 +49,10 @@ def ipinfo():
        slowprint("\033[1;36m =====================================")
  
        print (" ")
-       slowprint("\033[1;91mPress\033[1;36m ENTER\033[1;91m To Continue")
+       slowprint("\033[1;91mPress\033[1;36m 5\033[1;91m To Continue")
        print (" ")
-       vpp = input("\033[1;33m[+] IPInformation >>\033[1;32m")
-       if vpp == " ":
+       rr = input("\033[1;33m[+] IPInformation >>\033[1;32m")
+       if rr == " ":
                 os.system("clear")
                 return main()
 
@@ -68,7 +68,7 @@ def about():
        time.sleep(2)
        
        slowprint ("\033[1;91m -----------------------------------------------")
-       magas = input("\033[1;33m [+] Press Enter To Continue [+]")
+       magas = input("\033[1;33m [+] Press 5 To Continue [+]")
        if magas == " ":
            os.system("clear")
            return main()
